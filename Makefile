@@ -96,6 +96,9 @@ local: all
 	cp $(dest)/js/twisty.js $(dest)/local/js/twisty.js
 	cp $(dest)/css/style.css $(dest)/local/css/style.css
 
+server:
+	php -S 0.0.0.0:4633 -t ./src
+
 $(cstimer): $(twisty) $(timerSrc)
 	@echo $@
 	@$(compile) $(debugoff) $(externJQ) $(externTwisty) $(externLang) $(timerSrc) --js_output_file $(cstimer)

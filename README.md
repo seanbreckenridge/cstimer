@@ -1,7 +1,18 @@
 # csTimer
 
-Professional Speedcubing/Training Timer
+## forked changes
 
+```
+make server
+```
+
+runs this on port 4633 (goto <http://localhost:4633> in your browser)
+
+No 'unsafe' in title of webpage
+
+---
+
+Professional Speedcubing/Training Timer
 
 # Versions and Update Policy
 
@@ -17,16 +28,13 @@ New features will firstly be implemented in [Latest version](https://cstimer.net
 
 It is preferred to use HTTPS protocol to visit csTimer. Although HTTP is available, some functions might not work correctly, e.g. stackmatTimer, WCA login, etc.
 
-
 # Using as Native APP
 
 Currently, csTimer is able to work as a native app on mobile devices owing to [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/). Thus, when you open csTimer by chrome or some other modern browser on mobile devices, it will ask you whether to add csTimer to home screen. Then, you can use csTimer as a native app that also works without network access.
 
-
 # Translation
 
 If you are willing to help translating cstimer into your native language, please go to [this](https://crowdin.com/project/cstimer) page and select your language. If your native language is not on the list, just contact me and I'll add it.
-
 
 # Data Storage
 
@@ -37,7 +45,6 @@ Therefore, all data will be lost if you clear browser cache. For avoiding data l
 # Data Imported to csTimer's Server / Google Storage
 
 After https://github.com/cs0x7f/cstimer/commit/8280fdab9628c605c9abc1bc4a127e3e84016542, you are able to download data that is uploaded before the latest one from csTimer's Server / Google Storage, which might be useful for a mis-uploading. For Google Storage, csTimer will keep 10 latest uploaded data. For csTimer's server, 10 or more latest uploaded data will be kept. More specificently, I'll keep 10 latest uploaded data while others might be deleted due to our limited disk resource.
-
 
 # Third-party Deployment
 
